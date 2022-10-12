@@ -50,7 +50,10 @@ footer div p {
   background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
 }
 
-.front-page.card {
+.App-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   margin-bottom: 3;
   width: 800px;
   background: none;
