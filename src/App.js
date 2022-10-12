@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 import jake_bw from './img/JR_BW_Photo.jpeg';
 import Nav from './components/Nav/Nav.js';
 
@@ -7,10 +9,6 @@ function App() {
   return (
     <div>
       <Nav />
-        <div className="row">
-          <div className="background">
-            <div className="container">
-              <div className="row">    
                 <div className="front-page card">
                   <div className="row g-0">
                     <div className="front-page col-md-4">
@@ -27,9 +25,6 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-    </div></div>
   );
 }
 
